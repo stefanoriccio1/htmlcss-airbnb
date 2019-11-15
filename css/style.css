@@ -23,12 +23,11 @@ position: relative;
 .box{
   /* position: absolute; */
   border: 2px;
-  height: 100vh%;
-  width: 100vw%;
+  height: 30%;
+  width: 30%;
   padding: 10px;
   box-shadow: 3px 3px black;
   margin-bottom: 15px;
-  height: 800px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
