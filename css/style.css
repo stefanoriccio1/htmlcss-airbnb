@@ -26,7 +26,7 @@ background-color: grey;
 } */
 /* box */
 .box{
-  /* position: relative; */
+  position: relative;
   border: 5px;
   width: 100%;
   height: 33%;
@@ -50,4 +50,14 @@ background-color: grey;
 }
 .budapest {
   background-image: url(../img/budapest.jpg);
+}
+.title{
+position: absolute;
+top: 50%;
+left: 50%;
+text-align: center;
+font-size: 2em;
+transform: translate(-50%, -50%);
+color: white;
+text-shadow: 2px 2px black;
 }
