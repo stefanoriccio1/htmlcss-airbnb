@@ -51,6 +51,10 @@ background-color: grey;
   height: 100%;
   background-color: rgba(0,0,0,0.5);
 }
+/* hover */
+.box:hover .layover {
+  background-color: rgba(233,233,233,0)
+}
 /* titoli dei box */
 .title{
 position: absolute;
@@ -61,4 +65,5 @@ font-size: 2em;
 transform: translate(-50%, -50%);
 color: white;
 text-shadow: 2px 2px black;
+z-index: 3;
 }
