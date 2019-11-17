@@ -3,3 +3,31 @@
   padding: 0;
   box-sizing: border-box;
 }
+.box{
+  position: relative;
+  background-color: red;
+  width: 100vw;
+  height:100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.lisbona{
+  background-image: url(../img/Lisbona.jpg);
+}
+.edimburgo{
+  background-image: url(../img/Edimburgo.jpg)
+}
+.roma{
+  background-image: url(../img/Roma.jpg)
+}
+.title{
+  position:absolute;
+  top:50%;
+  left:50%;
+  text-align: center;
+  font-size: 10em;
+  transform: translate(-50%, -50%);
+  text-shadow: 2px 2px black;
+  color: white;
+  sizing: 40px;
+}
