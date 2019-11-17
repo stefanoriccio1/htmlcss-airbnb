@@ -4,28 +4,32 @@
   box-sizing: border-box;
 }
 /* container */
-.container{
-position: relative;
-  height: 100vh;
-  width:100vw;
-  padding: 20px;
-  background-color: red;
+main{
+background-color: grey;
 }
 .container .boxes{
-  position: absolute;
-  background-color:blue;
+  height: 800px;
+  width:400px;
+  padding: 20px;
+  margin-left: 20px;
+  /* background-color: red; */
+  border: 5px solid black;
+  background-color: white;
+}
+  /* position: absolute; */
+  /* background-color:blue;
   height: 70vh;
   width:70vw;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
+} */
 /* box */
 .box{
-  position: relative;
-  border: 2px;
-  width: 50vw;
-  height: 50vh;
+  /* position: relative; */
+  border: 5px;
+  width: 100%;
+  height: 33%;
   /* padding: 10px; */
   box-shadow: 3px 3px black;
   margin-bottom: 5px;
@@ -33,9 +37,9 @@ position: relative;
   background-size: cover;
   background-position: center;
   list-style-type: none;
-  top: 50%;
+  /* top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
 }
 /* box singoli */
 .paris {
