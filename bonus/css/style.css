@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* box */
 .box{
   position: relative;
   background-color: red;
@@ -11,6 +12,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+/* box imgs */
 .lisbona{
   background-image: url(../img/Lisbona.jpg);
 }
@@ -20,14 +22,24 @@
 .roma{
   background-image: url(../img/Roma.jpg)
 }
+/* title */
 .title{
   position:absolute;
   top:50%;
   left:50%;
   text-align: center;
-  font-size: 10em;
+  font-size: 7em;
   transform: translate(-50%, -50%);
   text-shadow: 2px 2px black;
   color: white;
   sizing: 40px;
+}
+/* layover */
+.layover{
+  position: absolute;
+  top: 0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
 }
